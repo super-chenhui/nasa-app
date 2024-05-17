@@ -1,5 +1,5 @@
 # Astronomy Picture of the Day
-The project is to access daily astronomical🔭 pictures through an API provided by NASA.<br><br>
+The project is to access daily astronomical🔭 pictures through an [API provided by NASA](https://api.nasa.gov/).<br><br>
 
 ![sample](/public/sample1.png)
 
