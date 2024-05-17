@@ -1,8 +1,6 @@
-# React + Vite
+# Astronomy Picture of the Day
+The project is to access daily astronomical🔭 pictures through an API provided by NASA.<br><br>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![sample](/public/sample1.png)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<br>⚠ I'm having an API access issue, maybe due to network restrictions in Chinese mainland, I've paused the project, maybe I'll continue development in the future.
