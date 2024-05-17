@@ -24,6 +24,10 @@
   display: relative;
 }
 
+button {
+  cursor: pointer;
+}
+
 .imgContainer {
   display: flex;
   flex-direction: column;
@@ -42,9 +46,46 @@ footer {
   left: 0;
   width: 100%;
   display: flex;
-  align-items: center;
+
   justify-content: space-between;
   gap: 1rem;
+  padding: 1rem;
+}
+
+footer div {
+  display: flex;
+  flex-direction: column;
+}
+
+footer h2 {
+  font-size: 1.4rem;
+}
+
+footer h1 {
+  font-size: 0.9rem;
+  font-weight: 200;
+}
+
+footer button {
+  background:  transparent;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 1rem;
+  transition-duration: 200ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+}
+
+footer button i {
+  font-size: 1.3rem;
+}
+
+footer button:hover {
+  opacity: 0.7;
 }
 
 .bgGradient {
@@ -78,10 +119,15 @@ footer {
   padding: 1rem;
   overflow-y: scroll;
   height: 100%;
-  width: 90%;
+  width: 80%;
   max-width: 800px;
   margin-left: auto;
   background: #030615;
+}
+
+.sidebarContents h2 {
+  font-weight: 200;
+  font-size: 1.4rem;
 }
 
 .sidebarContents div {
@@ -94,17 +140,43 @@ footer {
   border: none;
   outline: none;
   margin-right: auto;
+  transition-duration: 200ms;
+  padding: 1rem 0;
 }
+
+.sidebarContents button:hover {
+  opacity: 0.7;
+}
+
+.descriptionContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.descriptionTitle {
+  font-size: 1.1rem;
+  font-weight: 200;
+}
+
 
 @media (min-width: 640px) {
   .sidebar {
     position: relative;
     inset: unset;
     min-width: 30%;
+    max-height: 100vh;
     box-shadow: 0 0 40px 1px #030615;
   }
 
   .sidebarContents {
     margin: unset;
+    width: 100%;
+  }
+
+  .bgOverlay {
+    right: 0;
+    left: unset;
+    width: 100vw;
   }
 }
