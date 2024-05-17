@@ -5,9 +5,9 @@ import SideBar from "./components/SideBar"
 function App() {
 
   return (
-    <>
-      <SideBar />
+    <>   
       <Main />
+      <SideBar />
       <Footer />
     </>
   )
